@@ -1,0 +1,16 @@
+{{define "index"}}
+{{template "header"}}
+<main class="container">
+    <h4 class="mt-5">Welcome to link shorten service.</h4>
+    <div class="mt-5">
+        <form method="POST">
+            <h5>Enter your link here:</h5>
+            <div class="input-group" style="max-width: 550px">
+                <input type="text" name="user_link" class="form-control">
+                <input type="submit" value="Shorter!" class="btn btn-primary input-group-btn">
+            </div>
+        </form>
+    </div>
+</main>
+{{template "footer"}}
+{{end}}

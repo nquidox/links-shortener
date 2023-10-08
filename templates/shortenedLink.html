@@ -1,0 +1,10 @@
+{{define "shortenedLink"}}
+{{template "header"}}
+<main class="container">
+    <div class="mt-5">
+        <h4>Your shortened link:</h4>
+        <h5><a href="{{.}}">127.0.0.1:1234/{{.}}</h5>
+    </div>
+</main>
+{{template "footer"}}
+{{end}}
